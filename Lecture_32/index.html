@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+            padding: 160px;
+        }
+
+        .card {
+            background-color: white;
+            width: 194px;
+            height: 420px;
+            border-radius: 7px;
+        }
+
+        .image {
+            padding: 5px;
+            border-radius: 7px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content {
+            padding: 13px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .content p {
+            font-size: 13px;
+            color: gray;
+        }
+
+        .capsules {
+            padding: 0 29px;
+        }
+
+        .capsules span {
+            border: 1px solid grey;
+            padding: 1px 4px;
+            border-radius: 7px;
+            font-size: 12px;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            padding: 4px 7px;
+            border-radius: 15px;
+            background-color: rgba(0, 217, 255, 0.759);
+            color: blue;
+            margin-top: 7px;
+            font-size: 12px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .button button:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="184" src="img.avif" alt="">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Mountain</span>
+        </div>
+        <div class="content">
+            <h2>Angad</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, totam? Aliquam optio necessitatibus ea,
+                incidunt non suscipit unde facilis a hic.</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
